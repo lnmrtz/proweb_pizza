@@ -140,8 +140,10 @@ html, body {
 .header {
     background: url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
+    background-attachment: fixed;
+    background-position: fixed;
+    top: 0;
+    left: 0;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
