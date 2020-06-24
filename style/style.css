@@ -138,14 +138,14 @@ html, body {
 /*========================/root========================*/
 /*============================header==========================*/
 .header {
-    background-image: url('../images/header_bg.png');
-    background-repeat: no-repeat;
+    background: url('../images/header_bg.png') 50% cover / no-repeat;
+    /* background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
 }
 .nav > a {
     text-transform: uppercase;
