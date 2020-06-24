@@ -140,12 +140,7 @@ html, body {
 .header::after {
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    position: fixed;
-    z-index:-1;
-    top: 0;
-    left:0;
-      right:0;
+    background-attachment: scroll;
     background-position: center center;
    -webkit-background-size: cover;
    -moz-background-size: cover;
