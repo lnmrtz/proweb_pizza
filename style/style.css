@@ -1,0 +1,330 @@
+@import '../fonts/stylesheet.css';
+
+/*=============root==============*/
+:root {
+    --f100: 'Montserrat Thin';
+    --f300: 'Montserrat Light';
+    --f400: 'Montserrat Regular';
+    --f700: 'Montserrat Bold';
+    --f900: 'Montserrat Black';
+
+    --white: #fff;
+    --green_light_button: #67cb15;
+    --green_dark_button: #3f8a02;
+    --green_20: #68cd16;
+    --green: #68bf3b;
+    --light_grey: #bdbdbd;
+    --grey: #a6a6a6;
+    --footer_bg: #060503;
+
+    --col-1: calc(100% / 12);
+    --col-2: calc(100% / 12 * 2);
+    --col-3: calc(100% / 12 * 3);
+    --col-4: calc(100% / 12 * 4);
+    --col-5: calc(100% / 12 * 5);
+    --col-6: calc(100% / 12 * 6);
+    --col-7: calc(100% / 12 * 7);
+    --col-8: calc(100% / 12 * 8);
+    --col-9: calc(100% / 12 * 9);
+    --col-10: calc(100% / 12 * 10);
+    --col-11: calc(100% / 12 * 11);
+    --col-12: 100%;
+    --col: auto;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: var(--regular);
+}
+
+html, body {
+    scroll-behavior: auto;
+}
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-1 {
+    width: var(--col-1);
+    padding: 0 15px;
+}
+.col-2 {
+    width: var(--col-2);
+    padding: 0 15px;
+}
+.col-3 {
+    width: var(--col-3);
+    padding: 0 15px;
+}
+.col-4 {
+    width: var(--col-4);
+    padding: 0 15px;
+}
+.col-5 {
+    width: var(--col-5);
+    padding: 0 15px;
+}
+.col-6 {
+    width: var(--col-6);
+    padding: 0 15px;
+}
+.col-7 {
+    width: var(--col-7);
+    padding: 0 15px;
+}
+.col-8 {
+    width: var(--col-8);
+    padding: 0 15px;
+}
+.col-9 {
+    width: var(--col-9);
+    padding: 0 15px;
+}
+.col-10 {
+    width: var(--col-10);
+    padding: 0 15px;
+}
+.col-11 {
+    width: var(--col-11);
+    padding: 0 15px;
+}
+.col-12 {
+    width: var(--col-12);
+    padding: 0 15px;
+}
+.col {
+    width: var(--col);
+    padding: 0 15px;
+}
+
+.df {
+    display: flex;
+}
+.fw {
+    flex-wrap: wrap;
+}
+.fd-col {
+    flex-direction: column;
+}
+.flex-grow {
+    flex-grow: 1;
+}
+.content-space-between {
+    justify-content: space-between;
+}
+.content-center {
+    justify-content: center;
+}
+.align-items-center {
+    align-items: center;
+}
+.mh-100 {
+    min-height: 100vh;
+}
+/*========================/root========================*/
+/*============================header==========================*/
+.header {
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.nav > a {
+    text-transform: uppercase;
+    color: var(--white);
+    font-family: var(--f700);
+    font-size: 24px;
+}
+.__list {
+    color: var(--white);
+    font-family: var(--f400);
+    font-size: 24px;
+}
+.button {
+    padding: 18px 0;
+    display: inline-block;
+    border-radius: 24px;
+    width: 200px;
+    color: var(--white);
+    font-family: var(--f400);
+    font-size: 16px;
+    text-align: center;
+}
+.__list__link {
+    background-color: var(--green);
+    margin-left: 50px;
+}
+.nav {
+    padding-top: 30px;
+}
+
+.header__content p:first-child {
+    text-transform: uppercase;
+    color: var(--white);
+    font-family: var(--f900);
+    font-size: 18px;
+}
+.header__content p:nth-child(2) {
+    text-transform: uppercase;
+    color: var(--white);
+    font-family: var(--f900);
+    font-size: 72px;
+    margin: 34px 0;
+}
+.header__content p:nth-child(3) {
+    text-transform: uppercase;
+    color: var(--white);
+    font-family: var(--f400);
+    font-size: 18px;
+}
+.header__content a {
+    background-image: linear-gradient(to bottom, var(--green_light_button), var(--green_dark_button));
+    margin-top: 50px;
+}
+/*==============================/header===========================*/
+/*==============================main============================*/
+.section1 {
+    max-width: 700px;
+}
+.section1 h2 {
+    text-transform: uppercase;
+    font-family: var(--f700);
+    font-size: 36px;
+    color: var(--green);
+    margin-bottom: 60px;
+}
+.section1 p {
+    font-family: var(--f400);
+    font-size: 18px;
+    color: var(--light_grey);
+    line-height: 37px;
+}
+.section1 div p {
+    font-family: var(--f700);
+    font-size: 24px;
+}
+.main .section1__row {
+    padding: 78px 0 60px 0;
+}
+.sign {
+    margin-left: 62px;
+}
+.portrait {
+    max-width: 318px;
+    width: 100%;
+}
+
+.section2__row {
+    margin-bottom: 50px;
+}
+.section2 h3 {
+    font-family: var(--f700);
+    color: var(--green_20);
+    opacity: 0.3;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-bottom: 48px;
+}
+.pizza__card__image {
+    max-width: 318px;
+    width: 100%;
+}
+.for__discount {
+    position: relative;
+}
+.discount {
+    font-size: 18px;
+    font-family: var(--f700);
+    color: var(--white);
+    background-color: var(--green_20);
+    border-radius: 50%;
+    padding: 24px 13px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.section2__pizza__info {
+    margin-left: 30px;
+}
+.section2__pizza__info h3 {
+    font-size: 30px;
+    font-family: var(--f700);
+    color: var(--grey);
+    opacity: 1;
+    margin-bottom: 28px;
+}
+.section2 ul li {
+    font-family: var(--f400);
+    color: var(--grey);
+    font-size: 14px;
+    line-height: 24px;
+}
+.section2 span {
+    font-family: var(--f700);
+    color: var(--grey);
+    font-size: 30px;
+}
+
+.section2__price {
+    font-family: var(--f300);
+    color: var(--grey);
+    font-size: 18px;
+    text-align: end;
+}
+.section2 a{
+    background-image: linear-gradient(to bottom, var(--green_light_button), var(--green_dark_button));
+    margin-top: 32px;
+}
+.section3__row {
+    flex-wrap: wrap;
+}
+/* .portraits {
+    max-width: 320px;
+    width: 100%;
+} */
+.feedback {
+    /* max-width: 350px;
+    width: 100%; */
+    text-align: center;
+    margin: 95px 0 100px 0;
+}
+.feedback p:first-of-type {
+    text-transform: uppercase;
+    font-family: var(--f700);
+    font-size: 14px;
+    color: var(--grey);
+    margin: 26px 0 20px 0;
+}
+.feedback p:last-of-type {
+    font-family: var(--f400);
+    font-size: 14px;
+    color: var(--grey);
+    line-height: 23px;
+}
+
+
+.footer {
+    background-color: var(--footer_bg);
+}
+.footer p:last-of-type {
+    color: var(--white);
+    text-align: center;
+    font-family: var(--f100);
+    font-size: 16px;
+    padding: 55px 0 45px 0;
+}

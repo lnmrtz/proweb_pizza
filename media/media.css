@@ -1,0 +1,273 @@
+@media (max-width: 1200px) {
+    .feedback img {
+        max-width:330px;
+    }
+
+}
+@media (max-width: 992px) {
+    .section1 {
+        max-width: 100%;
+    }
+  .section1 p {
+        text-align: justify;
+        font-size: 24px;
+        line-height: 48px;
+    }
+    .portrait {
+        margin-left: 25vw;
+    }
+    .feedback img {
+        max-width: 300px;
+    }
+    .section1 h2 {
+        font-size: 36px;
+        margin: 30px 0;
+    }
+    .button {
+        max-width: 150px;
+        font-size: 14px;
+    }
+    .section2__pizza__info h3 {
+        font-size: 18px !important;
+        margin-bottom: 14px !important;
+    }
+    .section2 ul li {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .section2__price span{
+        font-size: 24px;
+    }
+    .__list {
+        font-size: 18px;
+    }
+    .pizza__card__image {
+        max-width: 250px;
+    }
+    .discount {
+        top: 15px;
+        left: 15px;
+        font-size: 14px;
+        padding: 12px 4px;
+    }
+    .feedback img {
+        max-width:230px;
+    }
+}
+@media (max-width: 768px) {
+    .header__content p:nth-child(2) {
+        font-size: 64px;
+        margin: 17px 0;
+    }
+    .portrait {
+        max-width: 280px;
+        margin-left: 25vw;
+    }
+    .main .section1__row {
+        padding-top: 60px;
+    }
+    .section1 h2 {
+        font-size: 30px;
+        margin: 30px 0;
+    }
+    .section1 p {
+        font-size: 16px;
+        line-height: 37px;
+    }
+ 
+    .section2 h3:first-child {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+  
+  .section2 .button {
+        max-width: 150px;
+        font-size: 14px;
+        margin-top: 16px;
+    }
+    .feedback img {
+        max-width:180px;
+    }
+    .footer p:last-of-type {
+        font-size: 14px;
+    }
+    .sign {
+        max-width: 130px;
+    }
+}
+@media (max-width: 576px) {
+    .header__content p:nth-child(2) {
+        font-size: 54px;
+        margin: 17px 0;
+    }
+    .portrait {
+        max-width: 240px;
+        margin-left: 25vw;
+    }
+    .section1 h2 {
+        font-size: 24px;
+        margin: 20px 0;
+    }
+    .section1 p {
+        font-size: 14px;
+        line-height: 34px;
+    }
+    .main .section1__row {
+        padding: 30px 0;
+    }
+    .sign {
+        max-width: 100px;
+    }
+    .feedback img {
+        max-width:130px;
+    }
+    .feedback p:first-of-type {
+        font-size: 10px;
+    }
+    .feedback p:last-of-type {
+        font-size: 8px;
+        line-height: 18px;
+    }
+    .pizza__card__image {
+        max-width: 200px;
+    }
+    .section2__pizza__info h3 {
+        font-size: 16px !important;
+        margin-bottom: 12px !important;
+    }
+    .section2 ul li {
+        font-size: 10px;
+        line-height: 18px;
+    }
+    /* .section2__row > div {
+        flex-direction: column;
+    } */
+    .section2__price span{
+        font-size: 18px;
+    }
+    .section2__price {
+        font-size: 10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .section2 .button {
+        max-width: 120px;
+        font-size: 10px;
+        padding: 18px 10px;
+        margin-top: 10px;
+    }
+     .button {
+        max-width: 120px;
+        font-size: 10px;
+        padding: 18px 10px;
+        margin-top: 10px;
+    }
+    .feedback {
+        margin: 10px 0 20px 0;
+    }
+    .footer p:last-of-type {
+        font-size: 10px;
+    }
+    .__list {
+        font-size: 14px;
+    }
+    .nav > a {
+        font-size: 16px;
+    }
+}
+@media (max-width: 480px) {
+    .nav {
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .nav > a {
+        padding-bottom: 20px;
+    }
+    .nav ul {
+        flex-direction: column;
+    }
+    .__list__link {
+        margin: 20px 0;
+    }
+    .button {
+        padding: 14px 0;
+    }
+    .header__content p:first-child {
+        font-size: 14px;
+    }
+    .header__content p:nth-child(2) {
+        font-size: 36px;
+    }
+    .header__content p:nth-child(3) {
+        font-size: 14px;
+    }
+    .header__content a {
+        margin-top: 30px;
+    }
+    .portrait {
+        margin: auto;
+        max-width: 100%;
+    }
+    .section1 h2 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    .section1 p {
+        font-size: 12px;
+        line-height: 28px;
+    }
+    .section1 div p {
+        font-size: 16px;
+    }
+    .section2 h3:first-child {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .section2__row {
+        margin-bottom: 30px;
+    }
+    .section2__row div {
+        flex-direction: column;
+    
+    }
+    .pizza__card__image {
+        max-width: 100%;
+    }
+    .section2__pizza__info {
+        margin: 15px 0 0 0;
+    }
+    .section2__pizza__info h3 {
+        font-size: 20px !important;
+        
+    }
+    .section2 ul li {
+        font-size: 12px;
+    }
+    .section2__price span {
+        font-size: 24px;
+    }
+    .section2__price {
+        font-size: 12px;
+    }
+    .section3__row {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .col-4 {
+        width: 100%;
+    }
+    .feedback img {
+        max-width: 100%;
+    }
+    .feedback p:first-of-type {
+        font-size: 16px;
+        margin: 15px 0;
+    }
+    .feedback p:last-of-type {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .footer p:last-of-type {
+        padding: 25px 0 20px 0;
+    }
+}
